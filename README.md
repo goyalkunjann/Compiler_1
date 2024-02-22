@@ -22,4 +22,4 @@ MongoDB stores user information, code submissions, and execution results, facili
 - Git
 
 ## Screenshots of the App
-<img src="Compiler_1\client\src\assets\editor.png" >
+<img src="client\src\assets\editor.png" >
