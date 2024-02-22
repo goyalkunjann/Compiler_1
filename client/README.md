@@ -1,8 +1,25 @@
-# React + Vite
+# <Project Name> Compiler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a web-based compiler designed to compile and execute code snippets in <programming language(s)>. Leveraging the MERN stack, it features a React frontend, Node.js and Express backend, and MongoDB for data storage. The compiler aims to provide a seamless development and testing environment for <target audience>.
 
-Currently, two official plugins are available:
+## Architecture
+The application is divided into two main components:
+- **Frontend**: Developed with React, offering a user interface for submitting code, viewing results, and managing user sessions.
+- **Backend**: Implemented with Node.js and Express, responsible for code compilation, execution, and interacting with the MongoDB database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MongoDB stores user information, code submissions, and execution results, facilitating a robust and scalable data management solution.
+
+## Features
+- Supports code compilation and execution for C++.
+- Provides real-time feedback on code execution.
+
+## Installation
+
+### Prerequisites
+- Node.js (Latest Stable Version)
+- MongoDB (Latest Stable Version)
+- Git
+
+## Screenshots of the App
+<img src="client/src/assets/editor.png" >
